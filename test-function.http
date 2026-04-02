@@ -2,7 +2,8 @@
 ### These tests verify the check-booking Azure Function.
 ### Use VS Code REST Client extension: click "Send Request" above each test.
 
-@baseUrl = http://localhost:7071/api
+# @baseUrl = http://localhost:7071/api
+@baseUrl = https://fleetbook-func-lab3.azurewebsites.net/
 
 ### Health Check
 GET {{baseUrl}}/health
